@@ -92,7 +92,7 @@ function Home() {
             $hasstarted={hasStarted}
             onMouseEnter={() => handleHover(true)}
             onMouseLeave={() => handleHover(false)}
-
+            onClick={() => handleHover(true)}
           >
             No
           </Button>
